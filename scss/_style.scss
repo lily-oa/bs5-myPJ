@@ -1,0 +1,29 @@
+
+body {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.btnWidth {
+  width: 96px;
+}
+
+.baDge{
+  font-size: .5rem;
+}
+/* 小塊的區域分開滾動的關鍵 */
+.sidebar{
+  height: 800px;
+  top: 6rem;
+  overflow-y: scroll;
+}
+/* 卡片圖片自適應大小 */
+.bg-cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.logo{
+  background-image: url('https://i.postimg.cc/cLj7nF64/logo.jpg');
+  width: 150px;
+  @include wordChangePic;
+}

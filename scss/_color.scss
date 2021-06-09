@@ -1,0 +1,17 @@
+
+.bg-hover-ff785e:hover{
+  background: #ff785e;
+  color:#fff;
+  border: none;
+  &:hover > i{
+    color: #FFDF65;
+  }
+}
+
+.bg-hover-858377:hover{
+  background: #858377;
+  color:#fff;
+  border: none;
+}
+
+

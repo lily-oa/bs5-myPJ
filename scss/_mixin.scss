@@ -1,0 +1,11 @@
+
+/* logo圖片取代文字*/
+@mixin wordChangePic{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
