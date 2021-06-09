@@ -11974,7 +11974,7 @@ textarea.form-control-lg {
   border: none;
 }
 
-/* logo圖片取代文字*/
+/* logo圖片取代文字 記得加上圖片位址(url)和要放上去的圖片寬度 */
 body {
   font-family: "Baloo Tamma 2", cursive;
 }
