@@ -11987,6 +11987,11 @@ body {
   font-size: 0.5rem;
 }
 
+.zIndexTop {
+  top: 0;
+  z-index: 1020;
+}
+
 /* 小塊的區域分開滾動的關鍵 */
 .sidebar {
   height: 800px;
