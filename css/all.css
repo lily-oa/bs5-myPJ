@@ -12031,6 +12031,10 @@ body {
   white-space: nowrap;
 }
 
+.card-title {
+  font-size: 18px;
+}
+
 @media (max-width: 991px) {
   .text-muted {
     margin: 20px auto;
