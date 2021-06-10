@@ -214,7 +214,7 @@
   <section class="py-5">
     <div class="container">
       <div class="row g-5">
-        <div class="col-8 pe-4">
+        <div class="col-lg-8 col-md-7 pe-4">
           <div class="tab-content mb-5">
             <!-- 專案介紹 -->
             <!-- role: 本質上是增強語義性，當現有的HTML標籤不能充分表達語義性的時候，就可以藉助role來說明。
@@ -521,22 +521,22 @@
           </form>
         </div>
 
-        <div class="col-4 ps-1">
+        <div class="col-lg-4 col-md-5 ps-1">
           <div class="sidebar position-sticky">
             <!-- 店家 -->
-            <div class="card p-2">
+            <div class="card ps-2 pt-2">
               <div class="row">
                 <div class="col-md-4 mb-2">
                   <img src="https://i.postimg.cc/wBCpDWsY/store-img.jpg" alt="">
                 </div>
                 <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">缺錢事務所</h5>
-                    <p class="card-text">已發起 1 個專案</p>
+                  <div class="card-body pe-1">
+                    <p class="card-title h5 mb-3">缺錢事務所</p>
+                    <p class="card-text fs-7">已發起 1 個專案</p>
                   </div>
                 </div>
               </div>
-              <p>需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉！</p>
+              <p class="p-1">需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉！</p>
             </div>
 
             <div class="row">
@@ -563,101 +563,103 @@
             </div>
             <!-- card 開始 -->
             <!-- 方案 1-->
-            <div class="card mb-3">
-              <img src="https://i.postimg.cc/FRgkqCc0/plan-img.jpg" alt="">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-auto me-auto">
-                    <span>限時優惠</span>
+            <ul class="list-unstyled">
+              <li class="card mb-3">
+                <img src="https://i.postimg.cc/FRgkqCc0/plan-img.jpg" alt="">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-auto me-auto">
+                      <span>限時優惠</span>
+                    </div>
+                    <div class="col-auto">
+                      2 days 20:05:20
+                    </div>
                   </div>
-                  <div class="col-auto">
-                    2 days 20:05:20
+                  <br>
+                  <p class="card-title fs-6 fw-bold">買一送一，只有兩百組別錯過</p>
+                  <p class="fw-bold h6">NT$ 1600</p>
+                  <div class="row">
+                    <div class="col-auto me-auto">
+                      <span class="badge bg-light text-dark text-body">已被贊助88次</span>
+                      <span class="badge bg-secondary">限量<span class="text-warning">200</span>個</span>
+                    </div>
                   </div>
-                </div>
-                <br>
-                <h6 class="card-title">買一送一，只有兩百組別錯過</h6>
-                <h6 class="fw-bold">NT$ 1600</h6>
-                <div class="row">
-                  <div class="col-auto me-auto">
-                    <span class="badge bg-light text-dark text-body">已被贊助88次</span>
-                    <span class="badge bg-secondary">限量<span class="text-warning">200</span>個</span>
-                  </div>
-                </div>
-                <p class="card-text mt-2">
-                  相機是讓我們帶回旅途記憶的觀景窗。雖然現在手機拍照功能很方便，但是喜歡數位相機拍出來的高質感與氛圍的人
-                  依舊不少。
-                </p>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-warning rounded-pill fw-bold bg-hover-ff785e" type="button">
-                    贊助此方案
-                  </button>
-                </div>
-              </div>
-            </div>
-            <!-- 方案 2-->
-            <div class="card mb-3">
-              <img src="https://i.postimg.cc/FRgkqCc0/plan-img.jpg" alt="">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-auto me-auto">
-                    <span>限時優惠</span>
-                  </div>
-                  <div class="col-auto">
-                    2 days 20:05:20
+                  <p class="card-text mt-2">
+                    相機是讓我們帶回旅途記憶的觀景窗。雖然現在手機拍照功能很方便，但是喜歡數位相機拍出來的高質感與氛圍的人
+                    依舊不少。
+                  </p>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-warning rounded-pill fw-bold bg-hover-ff785e" type="button">
+                      贊助此方案
+                    </button>
                   </div>
                 </div>
-                <br>
-                <h6 class="card-title">買一送一，只有兩百組別錯過</h6>
-                <h6 class="fw-bold">NT$ 1600</h6>
-                <div class="row">
-                  <div class="col-auto me-auto">
-                    <span class="badge bg-light text-dark text-body">已被贊助88次</span>
-                    <span class="badge bg-secondary">限量<span class="text-warning">200</span>個</span>
+              </li>
+              <!-- 方案 2-->
+              <li class="card mb-3">
+                <img src="https://i.postimg.cc/FRgkqCc0/plan-img.jpg" alt="">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-auto me-auto">
+                      <span>限時優惠</span>
+                    </div>
+                    <div class="col-auto">
+                      2 days 20:05:20
+                    </div>
+                  </div>
+                  <br>
+                  <p class="card-title fs-6 fw-bold">買一送一，只有兩百組別錯過</p>
+                  <p class="fw-bold h6">NT$ 1600</p>
+                  <div class="row">
+                    <div class="col-auto me-auto">
+                      <span class="badge bg-light text-dark text-body">已被贊助88次</span>
+                      <span class="badge bg-secondary">限量<span class="text-warning">200</span>個</span>
+                    </div>
+                  </div>
+                  <p class="card-text mt-2">
+                    相機是讓我們帶回旅途記憶的觀景窗。雖然現在手機拍照功能很方便，但是喜歡數位相機拍出來的高質感與氛圍的人
+                    依舊不少。
+                  </p>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-warning rounded-pill fw-bold bg-hover-ff785e" type="button">
+                      贊助此方案
+                    </button>
                   </div>
                 </div>
-                <p class="card-text mt-2">
-                  相機是讓我們帶回旅途記憶的觀景窗。雖然現在手機拍照功能很方便，但是喜歡數位相機拍出來的高質感與氛圍的人
-                  依舊不少。
-                </p>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-warning rounded-pill fw-bold bg-hover-ff785e" type="button">
-                    贊助此方案
-                  </button>
-                </div>
-              </div>
-            </div>
-            <!-- 方案 3 -->
-            <div class="card mb-3">
-              <img src="https://i.postimg.cc/FRgkqCc0/plan-img.jpg" alt="">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-auto me-auto">
-                    <span>限時優惠</span>
+              </li>
+              <!-- 方案 3 -->
+              <li class="card mb-3">
+                <img src="https://i.postimg.cc/FRgkqCc0/plan-img.jpg" alt="">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-auto me-auto">
+                      <span>限時優惠</span>
+                    </div>
+                    <div class="col-auto">
+                      2 days 20:05:20
+                    </div>
                   </div>
-                  <div class="col-auto">
-                    2 days 20:05:20
+                  <br>
+                  <p class="card-title fs-6 fw-bold">買一送一，只有兩百組別錯過</p>
+                  <p class="fw-bold">NT$ 1600</p>
+                  <div class="row">
+                    <div class="col-auto me-auto">
+                      <span class="badge bg-light text-dark text-body">已被贊助88次</span>
+                      <span class="badge bg-secondary">限量<span class="text-warning">200</span>個</span>
+                    </div>
+                  </div>
+                  <p class="card-text mt-2">
+                    相機是讓我們帶回旅途記憶的觀景窗。雖然現在手機拍照功能很方便，但是喜歡數位相機拍出來的高質感與氛圍的人
+                    依舊不少。
+                  </p>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-warning rounded-pill fw-bold bg-hover-ff785e" type="button">
+                      贊助此方案
+                    </button>
                   </div>
                 </div>
-                <br>
-                <h6 class="card-title">買一送一，只有兩百組別錯過</h6>
-                <h6 class="fw-bold">NT$ 1600</h6>
-                <div class="row">
-                  <div class="col-auto me-auto">
-                    <span class="badge bg-light text-dark text-body">已被贊助88次</span>
-                    <span class="badge bg-secondary">限量<span class="text-warning">200</span>個</span>
-                  </div>
-                </div>
-                <p class="card-text mt-2">
-                  相機是讓我們帶回旅途記憶的觀景窗。雖然現在手機拍照功能很方便，但是喜歡數位相機拍出來的高質感與氛圍的人
-                  依舊不少。
-                </p>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-warning rounded-pill fw-bold bg-hover-ff785e" type="button">
-                    贊助此方案
-                  </button>
-                </div>
-              </div>
-            </div><!-- card 結束-->
+              </li>
+            </ul><!-- card 結束-->
           </div><!-- sidebar結束-->
         </div>
       </div>
