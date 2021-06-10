@@ -11,6 +11,7 @@ body {
   font-size: .5rem;
 }
 
+/* 避免在滾動時被壓過去，讓nav那一整塊有浮起來的效果的關鍵 */
 .zIndexTop {
   top: 0;
   z-index: 1020;
