@@ -1,5 +1,5 @@
 
-/* logo圖片取代文字 記得加上圖片位址(url)和要放上去的圖片寬度 */
+/* logo圖片取代文字 記得加上圖片位址(url)和要放上去圖片所想要的寬度 */
 @mixin wordChangePic{
   background-position: center;
   background-size: contain;
