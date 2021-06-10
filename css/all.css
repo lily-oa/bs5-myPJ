@@ -11984,7 +11984,17 @@ body {
   width: 96px;
 }
 
-.baDge {
+/* 進度條*/
+.progress {
+  height: 20px;
+}
+.progress .progress-bar {
+  font-size: 15px;
+  background: #ffdf65;
+  color: #858377;
+}
+
+.text .baDge {
   font-size: 0.5rem;
 }
 
@@ -12019,4 +12029,10 @@ body {
   text-indent: 101%;
   overflow: hidden;
   white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+  .text-muted {
+    margin: 20px auto;
+  }
 }
