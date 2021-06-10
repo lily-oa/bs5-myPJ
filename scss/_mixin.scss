@@ -10,3 +10,9 @@
   white-space: nowrap;
 }
 
+/* 卡片圖片自適應大小 */
+@mixin picAdaptive{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

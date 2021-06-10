@@ -11,7 +11,7 @@ body {
   font-size: .5rem;
 }
 
-/* 避免在滾動時被壓過去，讓nav那一整塊有浮起來的效果的關鍵 */
+/* 避免在滾動時被壓過去，讓nav那一整塊有浮起來效果的關鍵 */
 .zIndexTop {
   top: 0;
   z-index: 1020;
@@ -26,11 +26,10 @@ body {
 
 /* 卡片圖片自適應大小 */
 .bg-cover{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  @include picAdaptive;
 }
 
+/* logo圖片取代文字 */
 .logo{
   background-image: url('https://i.postimg.cc/cLj7nF64/logo.jpg');
   width: 150px;
