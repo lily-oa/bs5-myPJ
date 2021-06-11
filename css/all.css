@@ -12035,7 +12035,12 @@ body {
   font-size: 18px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1400px) {
+  .text-muted {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 992px) {
   .text-muted {
     margin: 20px auto;
   }
