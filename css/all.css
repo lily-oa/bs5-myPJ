@@ -12039,6 +12039,11 @@ body {
   width: 100%;
 }
 
+.card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
 @media (max-width: 1400px) {
   .text-muted {
     margin-top: 5px;
