@@ -11974,6 +11974,12 @@ textarea.form-control-lg {
   border: none;
 }
 
+.btn-warning-hover:hover {
+  background: #ff785e;
+  color: #fff;
+  border: none;
+}
+
 /* logo圖片取代文字 記得加上圖片位址(url)和要放上去圖片所想要的寬度 */
 /* 卡片圖片自適應大小 */
 body {
