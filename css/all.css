@@ -12035,6 +12035,10 @@ body {
   font-size: 18px;
 }
 
+.card-img-top {
+  width: 100%;
+}
+
 @media (max-width: 1400px) {
   .text-muted {
     margin-top: 5px;
