@@ -12041,6 +12041,7 @@ body {
   font-size: 18px;
 }
 
+/* 手機版card圖片寬度符合呈現在手機面板上的寬度*/
 .card-img-top {
   width: 100%;
 }
