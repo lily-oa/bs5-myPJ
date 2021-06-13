@@ -17,8 +17,12 @@ body {
   }
 }
 
-.text .baDge {
+.text {
   font-size: .5rem;
+}
+.baDge {
+  font-size: .5rem;
+  border-radius: 0.25rem;
 }
 
 /* 避免在滾動時被壓過去，讓nav那一整塊有浮起來效果的關鍵 */
