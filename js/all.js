@@ -51,7 +51,7 @@ function init() {
 
 init();
 
-
+// click nav&tab go there & click go to form
 var form = document.getElementById('form');
 function heightToTop(ele) {
   let bridge = ele;
@@ -95,22 +95,3 @@ window.onscroll = function () {
     }
   }
 };
-
-(function () {
-  "use strict";
-  var forms = document.querySelectorAll(".needs-validation");
-  Array.prototype.slice.call(forms).forEach(function (form) {
-    form.addEventListener(
-      "submit",
-      function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-
-        form.classList.add("was-validated");
-      },
-      false
-    );
-  });
-})();
